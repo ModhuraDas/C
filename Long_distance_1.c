@@ -1,3 +1,4 @@
+//Calculate maximum distance between two 1 of a binary string
 #include<stdio.h>
 #include<math.h>
 
@@ -7,7 +8,7 @@ void main()
 	long long int x; 
 	m=a=b=l=n=0;
 	i=1;
-	printf("Enter (max 10 digits): ");
+	printf("Enter a binary string(max 10 digits): ");
 	scanf ("%lld", &x);
 	printf("%lld", x);
 	
